@@ -20,7 +20,7 @@ int main() {
     cout << endl;
     
     for (int i = 1; i <= 9; i++) {
-        cout << " " << i ; cout << " "; //prints single digit with space to make them same width as others 
+        cout << " " << i ; cout << " "; //prints single digits (1-9) with space to make them equally spaces as days 10-31 
         if ((i + day_uno) % 7 == 1) {
             cout << endl;
         } else {
@@ -29,7 +29,7 @@ int main() {
   }                                                                              // I have no idea how it works
   
   for (int i = 10; i <= 31; i++) {
-        cout << " " << i ; cout << " "; //prints rest 
+        cout << " " << i ; cout << " "; //prints rest (10-31)
         if ((i + day_uno) % 7 == 1) {
             cout << endl;
         } else {
